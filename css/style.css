@@ -39,11 +39,11 @@ h1 {
 /* Grid */
 .container-2 {
     display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .grid {
     background-color: #2980b9;
-    grid-template-columns: repeat(3, 20px [col-start]);
     border-radius: 50%;
     color: #ffffff;
     padding: 20px;
